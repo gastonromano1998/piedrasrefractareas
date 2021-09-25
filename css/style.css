@@ -57,6 +57,10 @@
   font-family: "Scheherazade New", serif;
 }
 
+.background-recomendaciones {
+  background-color: #9d6b53;
+}
+
 /* recomendacion */
 .container-recomendacion {
   text-align: center;
@@ -72,7 +76,7 @@
 
 /* recomendacion */
 .texto-recomendacion {
-  color: #fff;
+  color: black;
   font-family: "Scheherazade New", serif;
   font-size: large;
 }
