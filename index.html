@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- titulo navegable -->
+    <title>Piedras refractareas</title>
+    <!-- css estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- incorporando logos para el social bar -->
+    <link rel="stylesheet" href="fonts.css">
+    <!-- instalando AOS animaciones -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="background">
+    <!-- navbar -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="imagenes/WhatsApp Image 2021-09-22 at 16.14.47.jpeg"
+                        class="img-fluid" width="100px" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="titulo-nav" href="#">Producto</a>
+                        <a class="titulo-nav" href="#accesorios">Accesorios</a>
+                        <a class="titulo-nav" href="#">Clientes</a>
+                        <a class="titulo-nav" href="#recomendaciones">Recomendaciones</a>
+                        <a class="titulo-nav" href="#contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- fin del navbar -->
+    <!-- socialbar -->
+    <div class="social">
+        <ul>
+            <li> <a href="https://www.instagram.com/piedrarefractarias/?hl=es" class="icon-instagram"></a></li>
+            <li> <a href="https://api.whatsapp.com/send?phone=+5491130168969" class="icon-whatsapp"></a></li>
+        </ul>
+    </div>
+    <main>
+        <section class="my-5 pt-3">
+            <!-- grid contenedor de carousel y card -->
+            <div class="container h-100">
+                <div class="row">
+                    <!-- presentacion de la empresa -->
+                    <div class=" col-lg-5 col-md-12 d-flex align-items-center px-3">
+                        <div class="text-white">
+                            <h2 class="p-1 fs-1 text-dark">Nicolas Hanono</h2>
+                            <h3 class="py-2 text-muted fs-2 ">Piedras refractareas Kitchen</h3>
+                            <p class="py-2 fs-4 text-secondary">
+                                Envios a GBA y CABA - Venta por menor/mayor</p>
+                        </div>
+                    </div>
+                    <!-- carousel-->
+                    <div class="col-lg-7  col-md-12  px-3">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://i.ibb.co/n6652mt/pizza.jpg" class="d-block w-100 opacity-75"
+                                        alt="foto de fibra optica conectada a entradas de conectores upc/apc">
+                                    <div class="carousel-caption d-none d-md-block fuente-carousel ">
+                                        <h3 class="text-black">Ideal para pizza</h3>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://i.ibb.co/bdsb3VC/pan.jpg" class="d-block w-100 opacity-75"
+                                        alt="foto de fibra optica conectada a equipo de trasmision activo">
+                                    <div class="carousel-caption d-none d-md-block fuente-carousel">
+                                        <h3 class="text-black">Y otro tipo de recetas</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pala rotadora (accesorios) -->
+        <section class="container">
+            <h1 id="accesorios" class="titulo-principal">Nuestros Accesorios</h1>
+            <div class="container h-100 w-100 my-5">
+                <div class="row">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="col-lg-7 px-3 col-md-12">
+                        <img class="w-100 h-100"
+                            src="https://i.ibb.co/T18sLpj/Whats-App-Image-2021-09-22-at-18-18-36.jpg" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-12 d-flex align-items-center px-3">
+                        <p class="texto-accesorios"> <strong>Palas rotadora | Acero inoxidable.</strong><br>Estas son
+                            ideales para poder maniobrar la pizza debido a su tamaño (51,12cm).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tabla pizzera con mango, madera de pino (accesorios) -->
+        <section class="container">
+            <div class="container h-100 w-100 my-5">
+                <div class="row">
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                        class="col-lg-7 px-3 col-md-12">
+                        <img class="w-100 h-100"
+                            src="https://i.ibb.co/1f833LP/Whats-App-Image-2021-09-22-at-18-54-01.jpg" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-12 d-flex align-items-center px-3">
+                        <p class="texto-accesorios"><strong>Tabla pizzera con mango | Madera de pino.</strong><br>De un
+                            lado, con ranuras para facilitar su corte
+                            Del otro usalas para servir pizza, cortar panes, y para acompañar todas sus comidas. Como
+                            una variante de nuestra tabla con
+                            asas, esta contiene un mango de 10cm para ayudar a transportar la misma.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tabla pizzera, madera guatambu (accesorios) -->
+        <section class="container">
+            <div class="container h-100 w-100 my-5">
+                <div class="row">
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                        class="col-lg-7 px-3 col-md-12">
+                        <img class="w-100 h-100"
+                            src="https://i.ibb.co/DzRG2VQ/Whats-App-Image-2021-09-22-at-19-03-57.jpg" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-12 d-flex align-items-center px-3">
+                        <p class="texto-accesorios"><strong>Palas pizzeras | Madera Guatambu.</strong><br>Una de
+                            nuestras mejores aliadas en la cocina, y mas cuando se trata de pizza a la piedra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tabla pizzera, madera guatambu (accesorios) -->
+        <section class="container">
+            <div class="container h-100 w-100 my-5">
+                <div class="row">
+                    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
+                        class="col-lg-7 px-3 col-md-12">
+                        <img class="w-100 h-100"
+                            src="https://i.ibb.co/k03KmZ4/Whats-App-Image-2021-09-22-at-19-13-17.jpg" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-12 d-flex align-items-center px-3">
+                        <p class="texto-accesorios"><strong>Tabla pizzera con asas | Madera de pino.</strong><br>De un
+                            lado, con ranuras para facilitar su corte. De otro usalas para servir pizza, cortar panes, y
+                            para compañar todas tus comidas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recomendaciones -->
+        <section id="recomendaciones" class="bg-black">
+            <div class="container-recomendacion">
+                <div>
+                    <h2 class="titulo-recomendacion"><strong>Recomendaciones para usar Piedras Refractareas</strong>
+                    </h2>
+                </div>
+                <div>
+                    <h3 class="titulo-recomendacion">Antes de usar la piedra por primera vez</h3>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">Cuando le llegue la piedra, limpiela con un paño humedo y dejela
+                        secar durante la noche.<br>Esto
+                        elimina toda posible suciedad de fabrica y permite
+                        que la humedad se evapore por completo.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="titulo-recomendacion">Como utilizar una piedra para pizza</h4>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">Las piedras para pizza son faciles de usar y los resultados finales
+                        son increibles. Siga estos consejos
+                        y trucos para aprovechar al maximo la piedra para hornear.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">1. Coloque la piedra fria sobre la parrilla fria o en un horno frio y
+                        precaliente todo junto. La temperatura
+                        debe alcanzar los 250grados o mas para cocinar, por lo que el precalentamiento debera ser mas
+                        largo que para la parilla o el horno
+                        solo (al menos 30 minutos). Esto evita que la piedra se agriete debido a los cambios intensos de
+                        temperatura.
+                        Ademas, mientras mas precaliente la piedra, mejores seran los resultados en la masa de pan o
+                        pizza.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        2. Cuando este lo suficientemente precalentada, espolvoree harina de maiz encima de la piedra
+                        antes de colocar
+                        la comida sobre ella. Tambien puede utilizar papel de pergamino, solo debe asegurarse de que el
+                        papel este cortado del mismo tamaño
+                        que la piedra, y que apenas cuelgue, cuando utilice la parilla.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        3. Llevar la comida a la piedra es mucho mas facil cuando utiliza una pala pizzera. Sera mas
+                        facil levantar y colocar
+                        la comida con un poco de harina de maiz.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        4. Cuando termine de utilizar la piedra, dejala sobre la parrilla o en el horno hasta que se
+                        enfrie Por
+                        completo antes de manipularla. Tiene una temperatura de mas de 300grados y es peligroso
+                        manipularla, incluso con guantes
+                        resistentes al calor.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="titulo-recomendacion">Como limpiar una piedra para pizza</h4>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        Limpiar la piedra para pizza parece una tardea abrumadora, pero es tan simple como usarla.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        1. Una vez que se enfrio por completo, retire la piedra de la parilla o el horno para limpiarla.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        2. Retire los residuos raspandola con cuidado con una espatula de madera de plastico duro.
+                        Tambien
+                        puede utilizar una esponja de nailon suave.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        3. Enjuague o limpie la piedra con agua caliente y un paño suave. Deje secar durante al menos 24
+                        horas antes
+                        de volver a utilizar.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">4. Almacenala recostada. Puede almacenarla en el horno o sobre la
+                        parrilla. Mantenerla alli puede aumentar
+                        la retencion del calor y la conveccion del objeto. Solo debe recordar que la piedra esta alli
+                        para cocinar.
+                    </p>
+                </div>
+                <div>
+                    <p class="texto-recomendacion">
+                        5. En la medida de lo posible evitaremos el uso de jabones o productos quimicos que puedan dañar
+                        la piedra.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div>
+                <div>
+                    <h1>ESTADOS UNIDOS, CALIFORNIA</h1>
+                </div>
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad facere aperiam cum, nisi consequatur 
+                        alias voluptatum adipisci cupiditate eius? Sint praesentium 
+                        facilis sapiente maxime iure exercitationem, unde officiis dignissimos corporis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <div id="contacto" class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <h5>Piedras Refractareas Kitchen</h5>
+                <a href="/"
+                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap" /></svg>
+                </a>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
+                    <p><i class="icon-home3"></i>Corona golf club 2452, Pilar, Buenos Aires.</p>
+                    <p><i class="icon-mail"></i>nicohanono@gmail.com</p>
+                    <p><i class="icon-phone"></i>+54 9 11 3016-8969</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+
+
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+    <!-- aos animaciones -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

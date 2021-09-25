@@ -1,0 +1,66 @@
+/* fondo de pantalla del proyecto */
+.background {
+  background-color: #ede0d4;
+}
+
+/* color de las letras del navbar */
+.color-nav {
+  color: #ede0d4;
+}
+
+/* social bar */
+.social {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 100;
+}
+
+/* /* social bar */
+.social ul {
+  list-style: none;
+}
+
+/* /* social bar */
+.social ul li a {
+  display: inline-block;
+  flex-direction: row;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+/* /* social bar */
+.social ul li .icon-instagram {
+  background: #EC7063;
+}
+
+/* /* social bar */
+.social ul li .icon-whatsapp {
+  background: #2ECC71;
+}
+
+/* titulo principal del proyecto */
+.titulo-principal {
+  color: #ddb892;
+}
+
+/* Accesorios */
+.texto-accesorios {
+  font-size: x-large;
+  font-family: "Scheherazade New", serif;
+}
+
+/* recomendaciones */
+.recomendaciones-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=stylecss.map */
