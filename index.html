@@ -5,8 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- open graph titulo -->
+    <meta property="og:title" content="Piedras Refractareas Kitchen">
+    <!-- open graph descripcion -->
+    <meta property="og:description" content="Emprendimiento personal que surgio a partir del fanatismo por la comida y sobre todo la Pizza, con el fin
+    de llevar mi experiencia a la cocina del cliente.">
+    <!-- open graph Keywords -->
+    <meta name="keywords"
+        content="pizza, pan, comidas, piedra refractarea, accesorios para pizza, pala rotadora de pizza, tabla pizzera con mango, pala pizzera de madera">
+    <!-- open graph imagen -->
+    <meta property="og:image" content="imagenes/Logo_-removebg-preview.png">
     <!-- titulo navegable -->
-    <title>Piedras refractareas</title>
+    <title>Piedras Refractareas Kitchen</title>
     <!-- css estilos -->
     <link rel="stylesheet" href="css/style.css">
     <!-- boostrap -->
@@ -21,10 +31,16 @@
 <body class="background">
     <!-- navbar -->
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="imagenes/WhatsApp Image 2021-09-22 at 16.14.47.jpeg"
-                        class="img-fluid" width="100px" alt=""></a>
+                <!-- logo del proyecto -->
+                <a class="navbar-brand" href="#"><img src="imagenes/Logo_-removebg-preview.png" class="img-fluid"
+                        width="110px" alt=""></a>
+                <!-- logo mercado libre -->
+                <a class="navbar-brand"
+                    href="https://listado.mercadolibre.com.ar/piedras-refractareas-kitchen#D[A:piedras%20refractareas%20kitchen]"><img
+                        src="imagenes/WhatsApp_Image_2021-09-26_at_12.04.12-removebg-preview.png" class="img-fluid"
+                        width="100px" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,7 +50,7 @@
                     <div class="navbar-nav mx-auto">
                         <a class="titulo-nav" href="#">Producto</a>
                         <a class="titulo-nav" href="#accesorios">Accesorios</a>
-                        <a class="titulo-nav" href="#">Clientes</a>
+                        <a class="titulo-nav" href="#clientes">Clientes</a>
                         <a class="titulo-nav" href="#recomendaciones">Recomendaciones</a>
                         <a class="titulo-nav" href="#contacto">Contacto</a>
                     </div>
@@ -106,7 +122,7 @@
         </section>
         <!-- pala rotadora (accesorios) -->
         <section class="container">
-            <h1 id="accesorios" class="titulo-principal">Nuestros Accesorios</h1>
+            <h2 id="accesorios" class="titulo-principal">Nuestros Accesorios</h2>
             <div class="container h-100 w-100 my-5">
                 <div class="row">
                     <div data-aos="fade-up" data-aos-duration="3000" class="col-lg-7 px-3 col-md-12">
@@ -172,16 +188,38 @@
                 </div>
             </div>
         </section>
+
         <!-- clientes -->
+        <section id="clientes">
+            <div class="container-titulo">
+                <div>
+                    <h2 id="titulo-cliente1">Nuestros clientes</h2>
+                    <h3 id="titulo-cliente2">Nuestros Expertos</h3>
+                </div>
+            </div>
+            <div>
+                <div class="videos-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NtOQrFFpuVo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
 
 
-        
+
+
+
+
+
 
 
 
         <!-- recomendaciones -->
         <section id="recomendaciones" class="background-recomendaciones">
-            <div class="container-recomendacion">
+            <div data-aos="fade-up" data-aos-duration="3000" class="container-recomendacion">
                 <div>
                     <h2 class="titulo-recomendacion"><strong>Recomendaciones para usar Piedras Refractareas</strong>
                     </h2>
@@ -285,7 +323,7 @@
         </section>
 
 
-       
+
 
         <!-- footer -->
         <div id="contacto" class="container">
@@ -298,9 +336,9 @@
                 </a>
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
-                    <p><i class="icon-home3"></i>Corona golf club 2452, Pilar, Buenos Aires.</p>
-                    <p><i class="icon-mail"></i>nicohanono@gmail.com</p>
-                    <p><i class="icon-phone"></i>+54 9 11 3016-8969</p>
+                    <p><i class="icon-home3 p-2"></i>Corona golf club 2452, Pilar, Buenos Aires.</p>
+                    <p><i class="icon-mail p-2"></i>nicohanono@gmail.com</p>
+                    <p><i class="icon-phone p-2"></i>+54 9 11 3016-8969</p>
                 </div>
             </footer>
         </div>

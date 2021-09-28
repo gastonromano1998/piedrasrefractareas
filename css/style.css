@@ -8,6 +8,18 @@
   color: #ede0d4;
 }
 
+/* nav */
+.titulo-nav {
+  text-decoration: none;
+  padding: 20px;
+  color: #b5838d;
+}
+
+/* nav */
+.background-nav {
+  background: #ede0d4;
+}
+
 /* social bar */
 .social {
   position: fixed;
@@ -43,6 +55,13 @@
 /* /* social bar */
 .social ul li .icon-whatsapp {
   background: #2ECC71;
+}
+
+.h1-producto {
+  text-align: center;
+  font-family: "Scheherazade New", serif;
+  font-size: xx-large;
+  color: #7f5539;
 }
 
 /* titulo principal del proyecto */
@@ -81,14 +100,28 @@
   font-size: large;
 }
 
-.titulo-nav {
-  text-decoration: none;
-  padding: 20px;
-  color: #b5838d;
+/* clientes */
+.container-titulo {
+  display: flex;
+  justify-content: right;
+  padding: 20px 20px;
+  margin: 30px;
 }
 
-.background-nav {
-  background: #ede0d4;
+/* clientes */
+#titulo-cliente1 {
+  color: #7f4f24;
+}
+
+/* clientes */
+#titulo-cliente2 {
+  color: #936639;
+}
+
+/* clientes */
+.videos-container {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
