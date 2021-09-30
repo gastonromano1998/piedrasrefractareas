@@ -1,0 +1,34 @@
+/* media Q para ipad y dispositivos mas grandes en el apartado de productos */
+@media screen and (max-width:1000px) {
+    .contenedor-producto {
+        flex-direction: column-reverse;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .fotos-producto {
+        height: 40%;
+    }
+
+    .contenedor-texto {
+        text-align: center;
+    }
+}
+
+/* media Q para celulares mas chicos en el apartado de productos */
+@media screen and (max-width:600px) {
+    .contenedor-producto {
+        flex-direction: column-reverse;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .fotos-producto {
+        height: 25%;
+    }
+
+    .contenedor-texto {
+        text-align: center;
+    }
+
+}

@@ -1,3 +1,128 @@
+.h1-producto {
+  text-align: center;
+  font-family: "Scheherazade New", serif;
+  font-size: xx-large;
+  color: #7f5539;
+}
+
+/* titulo del producto */
+.titulo-principal {
+  color: #ddb892;
+  font-family: "Scheherazade New", serif;
+}
+
+/* productos */
+#sec1 {
+  background-image: radial-gradient(#9c6644, #7f5539);
+}
+
+#sec2 {
+  background-image: radial-gradient(#b08968, #ddb892);
+}
+
+#sec3 {
+  background-image: radial-gradient(#e6ccb2, #ede0d4);
+}
+
+/* productos */
+.fotos-producto {
+  height: 60%;
+}
+
+/* productos */
+.contenedor-producto {
+  height: 650px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 40px;
+  align-items: center;
+}
+
+/* productos */
+.contenedor-producto a {
+  display: inline-block;
+  padding: 7px 0;
+  color: #283773;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background: #fff;
+}
+
+/* productos */
+.contenedor-texto h2 {
+  color: #000000;
+  font-family: "Scheherazade New", serif;
+  font-weight: 900;
+  padding: 10px;
+}
+
+/* productos */
+.contenedor-texto p {
+  color: #414833;
+  font-family: "Scheherazade New", serif;
+  font-weight: 800;
+}
+
+/* clientes */
+.container-titulo {
+  display: flex;
+  justify-content: right;
+  padding: 20px 20px;
+  margin: 30px;
+}
+
+/* clientes */
+#titulo-cliente1 {
+  color: #7f4f24;
+}
+
+/* clientes */
+#titulo-cliente2 {
+  color: #936639;
+}
+
+/* clientes */
+.videos-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: #3a2e39;
+}
+
+/* recomendacion */
+.background-recomendaciones {
+  background-color: #9d6b53;
+}
+
+/* recomendacion */
+.container-recomendacion {
+  text-align: center;
+  padding: 20px 20px;
+  margin: 60px 60px;
+}
+
+/* recomendacion */
+.titulo-recomendacion {
+  color: #a5a58d;
+  font-family: "Scheherazade New", serif;
+}
+
+/* recomendacion */
+.texto-recomendacion {
+  color: black;
+  font-family: "Scheherazade New", serif;
+  font-size: large;
+}
+
+/* Accesorios */
+.texto-accesorios {
+  font-size: x-large;
+  font-family: "Scheherazade New", serif;
+}
+
 /* fondo de pantalla del proyecto */
 .background {
   background-color: #ede0d4;
@@ -57,131 +182,7 @@
   background: #2ECC71;
 }
 
-.h1-producto {
-  text-align: center;
-  font-family: "Scheherazade New", serif;
-  font-size: xx-large;
-  color: #7f5539;
-}
-
-/* titulo principal del proyecto */
-.titulo-principal {
-  color: #ddb892;
-  font-family: "Scheherazade New", serif;
-}
-
-/* Accesorios */
-.texto-accesorios {
-  font-size: x-large;
-  font-family: "Scheherazade New", serif;
-}
-
-.background-recomendaciones {
-  background-color: #9d6b53;
-}
-
-/* recomendacion */
-.container-recomendacion {
-  text-align: center;
-  padding: 20px 20px;
-  margin: 60px 60px;
-}
-
-/* recomendacion */
-.titulo-recomendacion {
-  color: #a5a58d;
-  font-family: "Scheherazade New", serif;
-}
-
-/* recomendacion */
-.texto-recomendacion {
-  color: black;
-  font-family: "Scheherazade New", serif;
-  font-size: large;
-}
-
-/* clientes */
-.container-titulo {
-  display: flex;
-  justify-content: right;
-  padding: 20px 20px;
-  margin: 30px;
-}
-
-/* clientes */
-#titulo-cliente1 {
-  color: #7f4f24;
-}
-
-/* clientes */
-#titulo-cliente2 {
-  color: #936639;
-}
-
-/* clientes */
-.videos-container {
-  display: flex;
-  justify-content: center;
-  padding: 10px 10px;
-  background-color: #3a2e39;
-}
-
-/* productos */
-#sec1 {
-  background-image: radial-gradient(#9c6644, #7f5539);
-}
-
-#sec2 {
-  background-image: radial-gradient(#b08968, #ddb892);
-}
-
-#sec3 {
-  background-image: radial-gradient(#e6ccb2, #ede0d4);
-}
-
-/* productos */
-.fotos-producto {
-  height: 60%;
-}
-
-/* productos */
-.contenedor-producto {
-  height: 650px;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px 40px;
-  align-items: center;
-}
-
-/* productos */
-.contenedor-producto a {
-  display: inline-block;
-  padding: 7px 0;
-  color: #283773;
-  text-decoration: none;
-  width: 100px;
-  text-align: center;
-  border: 1px solid #fff;
-  border-radius: 50px;
-  background: #fff;
-}
-
-/* productos */
-.contenedor-texto h2 {
-  color: #000000;
-  font-family: "Scheherazade New", serif;
-  font-weight: 900;
-  padding: 10px;
-}
-
-/* productos */
-.contenedor-texto p {
-  color: #414833;
-  font-family: "Scheherazade New", serif;
-  font-weight: 800;
-}
-
-/* productos */
+/* media Q para ipad y dispositivos mas grandes en el apartado de productos */
 @media screen and (max-width: 1000px) {
   .contenedor-producto {
     flex-direction: column-reverse;
@@ -197,7 +198,7 @@
     text-align: center;
   }
 }
-/* productos */
+/* media Q para celulares mas chicos en el apartado de productos */
 @media screen and (max-width: 600px) {
   .contenedor-producto {
     flex-direction: column-reverse;
@@ -205,12 +206,10 @@
     justify-content: center;
   }
 
-  /* productos */
   .fotos-producto {
     height: 25%;
   }
 
-  /* productos */
   .contenedor-texto {
     text-align: center;
   }
