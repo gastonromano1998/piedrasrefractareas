@@ -15,7 +15,7 @@
 
 /* productos fondos de pantalla para cada section */
 #sec1 {
-  background-image: radial-gradient(#9c6644, #7f5539);
+  background-image: radial-gradient(#cb997e, #7f5539);
 }
 
 #sec2 {
@@ -28,7 +28,7 @@
 
 /* productos */
 .fotos-producto {
-  height: 60%;
+  height: 40%;
 }
 
 /* productos */
@@ -122,6 +122,10 @@
 .texto-accesorios {
   font-size: x-large;
   font-family: "Scheherazade New", serif;
+}
+
+.container-accesorios {
+  padding: 50px;
 }
 
 /* fondo de pantalla del proyecto */
